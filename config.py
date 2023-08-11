@@ -1,5 +1,5 @@
-from telethon.sync import TelegramClient
-from telethon.sessions import StringSession
+from pyrogram import TelegramClient
+from pyrogram.sessions import StringSession
 import os
 APP_ID = os.environ.get("APP_ID")
 APP_HASH = os.environ.get("APP_HASH")
